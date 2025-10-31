@@ -1,0 +1,19 @@
+# Toko Kredit Syariah - Android Compatible Dependencies
+# Framework utama
+kivy==2.1.0
+kivymd==1.1.1
+
+# Android utilities
+plyer==2.1.0
+
+# Database (SQLite built-in, no external deps needed)
+# Encryption - simplified version
+cryptography==3.4.8
+
+# PDF generation - lightweight version
+reportlab==3.6.0
+
+# Note: Removed incompatible dependencies:
+# - pybluez (not supported on Android, use plyer.bluetooth instead)
+# - google-api-python-client (too heavy, use plyer.storagepath for local backup)
+# - pyserial (not needed for Bluetooth printing on Android)

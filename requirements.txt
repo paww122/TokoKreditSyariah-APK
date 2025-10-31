@@ -1,0 +1,26 @@
+# Toko Kredit Syariah - Dependencies
+# Framework utama
+kivy==2.1.0
+kivymd==1.1.1
+
+# Database dan enkripsi
+cryptography==41.0.7
+pbkdf2==1.3
+
+# Bluetooth dan printer
+pybluez==0.23
+pyserial==3.5
+
+# Google Drive API
+google-api-python-client==2.108.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+
+# PDF generation
+reportlab==4.0.7
+
+# Android permissions (untuk buildozer)
+plyer==2.1.0
+
+# Utilities
+python-dateutil==2.8.2
